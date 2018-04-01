@@ -1,0 +1,45 @@
+.header {
+    text-align: center;
+}
+
+.start {
+    text-align: center;
+}
+
+.guessWord {
+    text-align: center;
+}
+
+.wins {
+    border: solid 2px black;
+    width: 50%;
+}
+
+.losses {
+    border: solid 2px black;
+    width: 50%;
+
+}
+
+#placeHolderSpot {
+    text-align: center;
+}
+.LETTERBOX {
+    text-align: center;
+}
+#LETTERSUSED {
+    text-align: center;
+    border: solid 2px black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    width: 100%;
+}
+
+.spacer {
+    height: 20px;
+}

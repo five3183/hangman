@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index Page</title>
+    <!-- Add Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Add CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Add JQ-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container header">
+        <h1 class="display-3">Hangman</h1>
+        <p>
+            You have <span id="CHANCE">3</span> chances left
+        </p>
+        <button onClick = "this.style.visibility='hidden';" id="STARTGAME" class="btn btn-primary btn-lg startButn">START GAME</button>
+        <br><br>
+        <p>
+            <span id="NUMLETTERS"></span>
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h2 class="guessWord"><span id = "WORD">_ _ _ _</span></h2>
+            </div>
+        </div>
+
+        <div class="col-md-12 LETTERBOX"><span id = "LETTERSUSED">LETTERS USED</span></div>
+        </div>
+
+        <div class="col-md-12 spacer"></div>
+        <div class="col-md-12 spacer"></div>
+        <div class="col-md-12 spacer"></div>
+
+        <div class="col-md-2">
+            <div class="col-md-1 wins">
+                Wins: <span id="WINS"></span>
+            </div>
+            <div class="col-md-1 losses">
+                Losses: <span id="LOSSES"></span>
+            </div>   
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>  
